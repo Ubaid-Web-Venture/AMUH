@@ -18,7 +18,7 @@ connectCloudinary();
 app.use(express.json());
 
 // CORS Configuration
-const allowedOrigins = ["https://amuh.vercel.app", "https://amuh-admin.vercel.app"];
+const allowedOrigins = ["https://amuh-clothing.vercel.app", "https://amuh-admin.vercel.app"];
 app.use(
   cors({
     origin: allowedOrigins,
